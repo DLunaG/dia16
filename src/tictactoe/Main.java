@@ -1,6 +1,6 @@
 package tictactoe;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Main {
@@ -23,7 +23,7 @@ public class Main {
             System.out.println("Turno " + turno + ".Jugador " + (jugador%2+1) + ":\n" +
                     "indica la fila -> ");
             fila = sc.nextInt();
-            System.out.println("indica la columna: ");
+            System.out.println("indica la columna -> ");
             columna = sc.nextInt();
             antiBorrado = partida.mark(fila, columna, jugador);
 

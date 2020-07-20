@@ -44,7 +44,7 @@ public class TicTacToe {
     }
 
     public boolean hasWin(int jugadorActual){
-        if(jugador % 2 == 0){
+        if(jugadorActual % 2 == 0){
             jugador = 'X';
         }else{
             jugador = 'O';
